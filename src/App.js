@@ -1,15 +1,13 @@
 import React from "react";
-import Footer from "./component/Footer";
+import "./App.css";
 import Header from "./component/Header";
-import MainSection from "./component/MainSection";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <>
       <Header />
-      <MainSection />
-    </div>
+    </>
   );
-}
+};
 
 export default App;
