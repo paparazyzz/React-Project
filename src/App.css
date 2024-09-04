@@ -44,20 +44,20 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
-
-  /* Responsive Fonts */
-  @media screen and (max-width: 992px) {
-    :root {
-      --big-font-size: 2.75rem;
-      --h1-font-size: 1.5rem;
-      --h2-font-size: 1.25rem;
-      --h3-font-size: 1rem;
-      --normal-font-size: 0.938rem;
-      --small-font-size: 0.813rem;
-      --smaller-font-size: 0.75rem;
-    }
+}
+/* Responsive Fonts */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
   }
 }
+
 /* Base */
 * {
   margin: 0;
@@ -162,6 +162,10 @@ img {
 /* BreakPoints */
 /* Large Device */
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 /* medium device */
 @media screen and (max-width: 768px) {
@@ -170,4 +174,8 @@ img {
 }
 /* small device */
 @media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1-1);
+    margin-right: var(--mb-1-1);
+  }
 }
