@@ -1,0 +1,32 @@
+import React from "react";
+import CV from "../asset/CV.pdf";
+import Aimg from "../asset/poto.jpg";
+import "../css/About.css";
+import Descab from "./Descab";
+
+const About = () => {
+  return (
+    <section className="about__section" id="about">
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">My Introduction</span>
+      <div className="about__container  container grid">
+        <img src={Aimg} alt="" className="about__img" />
+        <div className="about__data">
+          <Descab />
+          
+          <p className="about__description">
+            I'm a passion with UI/UX Designer and have knowledge base of
+            programming language like PHP, HTML, CSS, JavaScript and familliar
+            with React.Js as a Framework
+          </p>
+
+          <a download="" href={CV} className="button button--flex">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
