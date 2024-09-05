@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "../App.css";
+import CV from "../asset/CV.pdf";
 import "../css/Home.css";
 
 const Data = () => {
@@ -9,7 +10,7 @@ const Data = () => {
   useEffect(() => {
     // Initialize Typed.js
     const typed = new Typed(subtitleRef.current, {
-      strings: ["UI/UX Designer", "Junior Front End Developper"],
+      strings: ["UI/UX Designer", "Junior Front-End Developper"],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true,
@@ -82,7 +83,7 @@ const Data = () => {
         I'am Bachelor of Computer Science Informatics Engineering and dedicated
         with UI/UX Designer based in Jakarta.
       </p>
-      <a href="" className="button button--flex">
+      <a download="" href={CV} className="button button--flex">
         My Resume
         <i className="uil uil-message icon-btn"></i>
       </a>
