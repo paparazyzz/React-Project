@@ -122,4 +122,8 @@
   .nav__list {
     column-gap: 0;
   }
+
+  .header {
+    padding: 0 1rem;
+  }
 }
