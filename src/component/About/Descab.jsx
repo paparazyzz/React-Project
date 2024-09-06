@@ -27,8 +27,8 @@
 // export default Descab;
 
 import React, { useEffect, useRef, useState } from "react";
-import "../App.css";
-import "../css/About.css";
+import "../../App.css";
+import "../../css/About.css";
 
 const Descab = () => {
   // Initialize state for the animated numbers

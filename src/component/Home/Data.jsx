@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import "../App.css";
-import CV from "../asset/CV.pdf";
-import "../css/Home.css";
+import "../../App.css";
+import CV from "../../asset/CV.pdf";
+import "../../css/Home.css";
 
 const Data = () => {
   const subtitleRef = useRef(null);

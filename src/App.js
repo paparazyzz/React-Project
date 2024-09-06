@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import Header from "./component/Header";
-import Home from "./component/Home";
-import About from "./component/About";
+import About from "./component/About/About";
+import Header from "./component/Header/Header";
+import Home from "./component/Home/Home";
+import Skills from "./component/Skills/Skills";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
+        <Skills />
       </main>
     </>
   );

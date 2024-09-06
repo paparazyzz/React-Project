@@ -1,7 +1,7 @@
 import React from "react";
-import "../App.css";
-import "../css/About.css";
-import Descab from "./Descab";
+import "../../App.css";
+import "../../css/About.css";
+import Descab from "../About/Descab";
 
 const About = () => {
   return (
