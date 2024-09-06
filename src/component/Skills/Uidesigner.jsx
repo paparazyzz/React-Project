@@ -7,21 +7,21 @@ const Uidesigner = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="uil uil-laptop-cloud"></i>
+            <i class="uil uil-user-arrows"></i>
             <div>
               <h3 className="skills__name">Researcher</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="uil uil-laptop-cloud"></i>
+            <i class="uil uil-mobile-android"></i>
             <div>
               <h3 className="skills__name">UI Mobile</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="uil uil-laptop-cloud"></i>
+            <i class="uil uil-window"></i>
             <div>
               <h3 className="skills__name">UI Web</h3>
               <span className="skills__level">Intermediate</span>
@@ -30,14 +30,14 @@ const Uidesigner = () => {
         </div>
         <div className="skills__group">
           <div className="skills__data">
-            <i class="uil uil-laptop-cloud"></i>
+            <i class="bx bxl-meta"></i>
             <div>
               <h3 className="skills__name">Wireframe</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="uil uil-laptop-cloud"></i>
+            <i class="uil uil-exclude"></i>
             <div>
               <h3 className="skills__name">Design System</h3>
               <span className="skills__level">Advanced</span>
